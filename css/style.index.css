@@ -1,0 +1,70 @@
+.juego-blanco {
+    /*Este apartado es la casilla de color blanco de los juegos: Habilitamos la opcion de flexibilidad y añadimos color de fondo*/
+    display: flex;
+    align-content: center;
+    background-color: #faf7ed;
+    flex-wrap: wrap;
+}
+.imgjuego {
+    /*Este apartado equivale a las imagenes*/
+    width: 50%;
+}
+.textojuego {
+    /*Este apartado equivale a todo el texto en los juegos*/
+    width: 50%;
+}
+.txt1 {
+    /*Este apartado equivale al primer texto de los apartados de videojuegos*/
+    margin-left: 8%;
+    margin-top: 12%;
+    font-size: 25px;
+    margin-right: 10%;
+    font-family: 'Lato', sans-serif;
+}
+.contenedor-encabezado {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+header {
+    background-color: black;
+    padding: 5%;
+    font-size: 60px;
+    font-family: 'Press Start 2P', cursive;
+}
+body {
+    margin: 0;
+    background-color: #faf7ed;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    width: 19.2%;
+    text-align: center;
+    margin-left: 0.5%;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: #faf7ed;
+    border: 1px solid black;
+    border-radius: 5px;
+}  
+nav a:hover {
+    background-color: black;
+    color: #fff;
+}
+.imagen-qs {
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 400px;
+}
+h3 {
+    line-height: 1.5;
+}
